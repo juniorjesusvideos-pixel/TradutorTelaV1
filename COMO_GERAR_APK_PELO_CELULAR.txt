@@ -1,0 +1,24 @@
+TRADUTOR DE TELA V1 — GERAR APK PELO CELULAR
+
+Método recomendado: GitHub Actions pelo navegador do celular.
+Não precisa Android Studio, PC nem terminal.
+
+1. Entre em https://github.com pelo navegador e faça login/crie uma conta.
+2. Crie um repositório novo, por exemplo: TradutorTelaV1.
+3. Envie para a RAIZ do repositório TODOS os arquivos e pastas deste projeto.
+   A raiz precisa mostrar, entre outros:
+   - app/
+   - .github/
+   - build.gradle
+   - settings.gradle
+   - gradle.properties
+4. Abra a aba Actions do repositório.
+5. Abra o workflow "Gerar APK Android".
+6. Toque em "Run workflow" e confirme.
+7. Quando a execução ficar verde, abra a execução concluída.
+8. Em Artifacts, baixe "TradutorTelaV1-APK".
+9. Extraia o ZIP baixado. Dentro estará app-debug.apk.
+10. Toque no APK para instalar. O Android poderá pedir autorização para instalar apps deste navegador/gerenciador de arquivos.
+
+OBSERVAÇÃO:
+Se o repositório receber um push na branch main/master, o APK também será recompilado automaticamente.
